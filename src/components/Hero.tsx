@@ -4,14 +4,16 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <div className="relative h-screen min-h-[600px] w-full overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4')`,
-        }}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
       >
-        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
-      </div>
+        <source src="https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
       
       <div className="relative container mx-auto h-full flex items-center">
         <div className="max-w-2xl space-y-6 animate-fade-up">
