@@ -33,7 +33,7 @@ const Panel = ({ title, subtitle, image, path, onMouseEnter, onMouseLeave }: Pan
 
   return (
     <article
-      className="relative group cursor-pointer border-b md:border-b-0 md:border-r border-white/20 last:border-b-0 md:last:border-r-0 flex-shrink-0 h-[calc(100vh-4rem)] md:h-screen w-full md:w-[calc((100vw-120px)/5)]"
+      className="relative group cursor-pointer border-b md:border-b-0 md:border-r border-white/20 last:border-b-0 md:last:border-r-0 flex-shrink-0 h-[calc(100vh-4rem)] md:h-screen w-full md:w-[calc((100vw-120px)/3)]"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onFocus={onMouseEnter}
