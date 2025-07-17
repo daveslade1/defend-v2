@@ -7,7 +7,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d')`,
+          backgroundImage: `url('https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4')`,
         }}
       >
         <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
