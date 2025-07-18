@@ -18,25 +18,17 @@ const Hero = () => {
 
   return (
     <div className="relative h-screen min-h-[600px] w-full overflow-hidden">
-      {!videoError && (
-        <video
-          className="absolute inset-0 w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          onError={handleVideoError}
-          onLoadedData={handleVideoLoaded}
-        >
-          <source src="https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4" type="video/mp4" />
-        </video>
-      )}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4" type="video/mp4" />
+      </video>
       
-      {videoError && (
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-700" />
-      )}
-      
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-black/30" />
       
       <div className="relative container mx-auto h-full flex items-center">
         <div className="max-w-2xl space-y-6 animate-fade-up">
