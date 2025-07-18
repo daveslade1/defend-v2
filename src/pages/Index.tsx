@@ -10,7 +10,7 @@ const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hoveredPanel, setHoveredPanel] = useState<number | null>(null);
   const [hoveredMenuItem, setHoveredMenuItem] = useState<number | null>(null);
-  const defaultImage = "https://jamiemarsland.co.uk/wp-content/uploads/2025/03/photo-3-scaled.jpg";
+  const defaultImage = "https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4";
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
