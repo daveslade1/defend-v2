@@ -18,15 +18,11 @@ const Hero = () => {
 
   return (
     <div className="relative h-screen min-h-[600px] w-full overflow-hidden">
-      <video
+      <img
+        src="/lovable-uploads/aef48cf2-81b2-425c-8d70-5dfa23c6fb2f.png"
+        alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src="https://defend-km.co.uk/wp-content/uploads/2025/06/AQP67w-7xKgnNzZs98Sc0-Ifd1yug3BYpL-gjOvcR4Z7T9hA8WZZ6NiPtdF1LrSm2Ot7PoHFHIXGxnK-A7z6XNouZxHAkBf0jmAx3c2TGCohMw.mp4" type="video/mp4" />
-      </video>
+      />
       
       
       
